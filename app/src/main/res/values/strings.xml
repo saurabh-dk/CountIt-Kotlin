@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CountIt-Kotlin</string>
+    <string name="count_limit_help">Use the count limit to get notified when the specified limit is reached.\n\nPhone will vibrate mildly when 1 and 2 counts are remaining and will vibrate for a longer period of time when it reaches the limit.\n\nYou can continue to count even after limit is reached.</string>
+    <string name="how_to_string">1. Just press Start Counting to start. \n\n2. Use Volume buttons to count.\n\n3. To exit, use Back arrow or press Back button twice.</string>
+    <string name="enter_the_count_limit_title">Enter the count limit (optional)</string>
+</resources>
