@@ -41,10 +41,10 @@ class CounterActivity : AppCompatActivity() {
                 ++count
                 updateText()
                 if (targetCount > 0) {
-                    when {
-                        count == targetCount - 2 -> vibrateNow()
-                        count == targetCount - 1 -> vibrateNow()
-                        count == targetCount -> vibrateNow(750)
+                    when (count) {
+                        targetCount - 2 -> vibrateNow()
+                        targetCount - 1 -> vibrateNow()
+                        targetCount -> vibrateNow(750)
                     }
                 }
                 return true
